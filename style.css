@@ -1,0 +1,193 @@
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-image: url(../back.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: fadeIn 1s ease-in-out;
+    position: relative;
+    overflow-x: hidden;
+    background-color:#d5e4cf ;
+}
+@keyframes fadeIn {
+    from{ opacity: 0;}
+    to { opacity: 1;}
+}
+.navbar{
+    padding: 1rem 2rem;
+    background-color: rgba(255, 255, 255, 0.5) !important;
+
+}
+.navbar-brand img{
+    max-width: 100%;
+    height: auto;
+}
+.nav-link {
+    color: #fff !important;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+.nav-link:hover{
+    color: #ccc !important;
+}
+.vision-section, .product-carousel{
+    
+    padding:50px 0;
+   
+     }
+     .vision-card, .product-card{
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        border-radius: 10px;
+        transition: transform 0.3s;
+     }
+     .vision-card, .about-card, .service-card, .product-card, .contact-card:hover{
+        transform: translateY(-10px);
+     }
+    
+.hero{
+    height: 80vh;
+    background: url('../bg.jpg') no-repeat center  ;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align:center ;
+    padding: 100px 0;
+    position: relative;
+}
+
+.vision-section, .latest-products{
+padding: 50px 0;
+position: relative;
+z-index: 2;
+}
+.hero h1, .hero .lead{
+    text-shadow: 2px 2px 4px  rgba(0,0,0,0.5);;
+}
+.about-section, .services-section, .product-section{
+    padding: 5rem 0;
+    background-color: rgba(0,0,0,0.7);
+}
+.card, .about-card , .service-card ,.product-card, .contact-card{
+    background-color: rgba(255,255,255,0.1);
+    padding: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 0.5rem 1rem rgba(0,0,0,0.15);
+    margin-bottom: 2rem;
+    transition: transform 0.3s;   
+}
+
+/* about */
+.about h1{
+    padding: 5rem 0;
+}
+.about-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;  
+}
+.about-card p{
+    font-size: 1.1rem;
+    line-height: 1.6;   
+}
+.about-card :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/*Services */
+.services h1{
+    padding: 5rem 0;
+}
+.lead{
+    font-size: 18px;
+}
+.service-card h3{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+.service-card p{
+    font-size: 1.1rem;
+    line-height: 1.6;
+    background-color: rgba(255,255,255,0.1);
+}
+.service-card :hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+/*Products */
+.product-image{
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+}
+/* contact */
+.contact{
+    padding: 4rem 0;
+}
+.contact h1{
+    text-align: center;
+    color: #343a40;
+    margin-bottom: 3rem;
+}
+.contact h3{
+    margin-top: 2rem;
+    border-color: #343a40;
+}
+.contact p{
+   margin-bottom: 1rem;
+}
+.contact{
+background-color: #d5e4cf;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+margin-bottom: 2rem;
+}
+.contact label {
+    font-weight: bold;
+}
+.contact button{
+    background-color: #abd1c6;
+    border-color: #abd1c6;
+    margin-bottom: 2rem;
+}
+textarea, .contact button{
+    margin: 4px 0;
+    padding: 10px;
+}
+
+.contact button:hover{
+    background-color: #004643;
+    border-color: #abd1c6;
+}
+
+/* footer */
+.footer{
+background-color: #343a40;
+color: white;
+border-radius: .7rem;
+padding: 20px 0;
+
+}
+
+.social-link, .contact-info{
+    background-color: rgba(255,255,255,0.1);
+    padding: 2rem;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+.social-link:hover, .contact-info {
+
+    transform: scale(1.1);
+}
+.btn-custom{
+    background-color:#abd1c6;
+    color: white;
+}
+.btn-custom:hover{
+    border-color: #004643;
+    color: white;
+}
